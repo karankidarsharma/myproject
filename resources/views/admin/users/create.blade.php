@@ -25,6 +25,6 @@
 
 	<marquee SCROLLAMOUNT=50 ><input class="t1" type="text" name="name"></marquee>
     <marquee SCROLLAMOUNT=50 ><input type="email" name="email"></marquee>
-  <marquee SCROLLAMOUNT=50 DIRECTION=RIGHT ><input class="t1" type="password" name="password"></marquee>
+  <marquee SCROLLAMOUNT=50 DIRECTION=RIGHT ><input class="t1" class="t1" type="password" name="password"></marquee>
     <input type="submit" value="create">
 </form>
