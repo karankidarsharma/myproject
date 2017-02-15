@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-    return 'hello world';
+   
+    
+     return view('welcome');
 });
+
+Route::get('users',['uses' => 'UsersController@index']);
+Route::get('users/create',['uses' => 'UsersController@create']);
+Route::post('users', ['uses' => 'UsersController@store']);
